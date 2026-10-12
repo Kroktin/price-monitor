@@ -1,0 +1,5 @@
+{
+  "framework": null,
+  "rewrites": [{ "source": "/api/py/(.*)", "destination": "/api/index" }],
+  "crons": [{ "path": "/api/py/cron", "schedule": "0 6 * * *" }]
+}
